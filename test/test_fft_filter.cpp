@@ -51,5 +51,4 @@ TEST(FFTFilterTest, DiracImpulseTest)
 		// Dirac-based shift contains zeros.
 		EXPECT_NEAR(filtered_signal[i], i-filter_size/2, 1e-5);
 	}
-
 }
