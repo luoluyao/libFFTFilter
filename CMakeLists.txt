@@ -5,6 +5,6 @@ include_directories (${FFTFilter_SOURCE_DIR}/include)
 
 add_library( kissfft src/kiss_fft.c)
 
-add_library (fftfilter src/fftfilter.cpp)
-target_link_libraries (fftfilter kissfft)  
+add_library (fft_filter src/fft_filter.cpp)
+target_link_libraries (fft_filter kissfft)  
 
