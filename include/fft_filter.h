@@ -1,3 +1,6 @@
+#ifndef FFT_FILTER_H_
+#define FFT_FILTER_H_
+
 #include <vector>
 
 // Real->Complex version of kiss_fft
@@ -40,3 +43,4 @@ private:
 	kiss_fftr_cfg inverse_fft_;
 };
 
+#endif
