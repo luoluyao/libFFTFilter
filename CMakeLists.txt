@@ -6,7 +6,7 @@ include_directories (${FFTFilter_SOURCE_DIR}/include
 
 ADD_SUBDIRECTORY (kissfft)
 
-add_library (fft_filter src/fft_filter.cpp)
-target_link_libraries (fft_filter kissfft)  
+add_library (${PROJECT_NAME} src/fft_filter.cpp)
+target_link_libraries (${PROJECT_NAME} kissfft)  
 
 ADD_SUBDIRECTORY (test)
